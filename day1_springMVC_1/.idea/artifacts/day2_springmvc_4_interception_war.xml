@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="day2_springmvc_4_interception:war">
+    <output-path>$PROJECT_DIR$/../day2_springmvc_4_interception/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>day2_springmvc_4_interception</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="day2_springmvc_4_interception.war">
+      <element id="artifact" artifact-name="day2_springmvc_4_interception:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+   <!-- &lt;!&ndash;引入外部文件&ndash;&gt;
+    <properties resource="jdbcConfig.properties"></properties>
+    &lt;!&ndash;配置别名&ndash;&gt;
+    <typeAliases>
+        <package name="com.szh.domain"></package>
+    </typeAliases>
+    &lt;!&ndash;配置环境&ndash;&gt;
+    <environments default="mysql">
+        <environment id="mysql">
+            <transactionManager type="JDBC"></transactionManager>
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+    &lt;!&ndash;引入带有注解的dao接口所在位置&ndash;&gt;
+    <mappers>
+        <package name="com.szh.dao"></package>
+    </mappers>-->
+</configuration>

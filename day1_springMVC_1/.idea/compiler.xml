@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="day2_springmvc_3_exception" />
+        <module name="fileuplodeserver" />
+        <module name="ssm" />
+        <module name="day2_springmvc_4_interception" />
+        <module name="day2_springmvc_2_fileuplode" />
+        <module name="day2_springmvc_1_response" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="day1_springMVC_1" target="13" />
+      <module name="day2_springmvc_1_response" target="13" />
+      <module name="day2_springmvc_2_fileuplode" target="13" />
+      <module name="day2_springmvc_3_exception" target="13" />
+      <module name="day2_springmvc_4_interception" target="13" />
+      <module name="fileuplodeserver" target="13" />
+      <module name="ssm" target="13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

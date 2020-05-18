@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="fileuplodeserver:war">
+    <output-path>$PROJECT_DIR$/../fileuplodeserver/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>fileuplodeserver</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="fileuplodeserver.war">
+      <element id="artifact" artifact-name="fileuplodeserver:war exploded" />
+    </root>
+  </artifact>
+</component>
